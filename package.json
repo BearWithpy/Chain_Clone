@@ -8,5 +8,9 @@
   "license": "MIT",
   "dependencies": {
     "tsc": "^1.20150623.0"
+  },
+  "scripts": {
+    "prestart": "tsc",
+    "start": "node index.js"
   }
 }
